@@ -1,6 +1,6 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
-const Testimonial=()=> {
+const Testimonial = () => {
   const testimonials = [
     {
       text: "Working with Digital Wisdom has been a game-changer for our corporate events. Their digital meeting solutions have helped us achieve seamless communication across our global teams.",
@@ -17,12 +17,14 @@ const Testimonial=()=> {
       author: "Jennifer K.",
       rating: 5,
     },
-  ]
+  ];
 
   return (
     <section className=" md:px-20 lg:px-40 py-16 md:py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">"What Our Client Say"</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+          "What Our Client Say"
+        </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
@@ -31,15 +33,15 @@ const Testimonial=()=> {
               <p className="text-gray-700 mb-4">{testimonial.text}</p>
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="font-bold text-gray-900">{testimonial.author}</p>
+                  <p className="font-bold text-gray-900">
+                    {testimonial.author}
+                  </p>
                   <div className="flex text-yellow-400">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <span key={i}>★</span>
-                  ))}
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <span key={i}>★</span>
+                    ))}
+                  </div>
                 </div>
-                  
-                </div>
-               
               </div>
             </div>
           ))}
@@ -55,7 +57,6 @@ const Testimonial=()=> {
         </div>
       </div>
     </section>
-  )
-}
-export default Testimonial
-
+  );
+};
+export default Testimonial;

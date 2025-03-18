@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div className="w-full">
       {/* About Us Section */}
-      <div className="px-6 md:px-20 lg:px-40 py-16 md:py-20">
+      <div className="px-6 md:px-12 lg:px-32 py-16 md:py-20">
         <AboutUsComp />
       </div>
 

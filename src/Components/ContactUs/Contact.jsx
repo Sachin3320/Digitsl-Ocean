@@ -1,6 +1,6 @@
-import {Link} from "react-router-dom"
-import contactus from '../../assets/contactUs.jpg'
-const Contact= () => {
+import { Link } from "react-router-dom";
+import contactus from "../../assets/contactUs.jpg";
+const Contact = () => {
   return (
     <section className="py-16 bg-black text-white relative mt-9">
       <div
@@ -10,10 +10,14 @@ const Contact= () => {
         }}
       />
       <div className="flex flex-col justify-center items-center mx-auto px-4 relative z-10 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Bring Your Space to Life – Get in Touch Today!</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          Let's Bring Your Space to Life – Get in Touch Today!
+        </h2>
         <p className="max-w-2xl mx-auto mb-8 text-gray-300">
-          Transform your space into a center of innovation, communication, and inspiration. Our team of experts is ready
-          to guide you through the process and help you create the perfect audio-visual environment for your needs.
+          Transform your space into a center of innovation, communication, and
+          inspiration. Our team of experts is ready to guide you through the
+          process and help you create the perfect audio-visual environment for
+          your needs.
         </p>
         <Link
           to="/contact"
@@ -23,7 +27,7 @@ const Contact= () => {
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
