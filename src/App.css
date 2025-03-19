@@ -1,42 +1,54 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.timeline-track {
+  position: relative;
+  height: 2px;
+  background-color: #e5e7eb;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timeline-thumb {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 10;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.timeline-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.timeline-dot.active {
+  background-color: #ef4444;
 }
 
-.read-the-docs {
-  color: #888;
+.timeline-content {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+
+.timeline-content.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.timeline-year {
+  position: absolute;
+  transform: translateX(-50%);
+  color: #6b7280;
+  font-size: 2.5rem;
+  font-weight: 200;
 }
