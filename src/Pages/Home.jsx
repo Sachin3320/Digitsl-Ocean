@@ -1,25 +1,22 @@
-import React from 'react'
-import Solutions from '../Components/Home/Solutions'
-import OurServices from '../Components/Home/OurServices'
-import TrustedBy from '../Components/Home/TrustedBy'
-import WhyChooseUs from '../Components/Home/WhyChooseUs'  
-import Contact from '../Components/Home/Contact'
-import AboutUsComp from '../Components/Home/AboutUsComp'
-import HeroBanner from '../Components/Home/HeroBanner'
-
-
-
+import React from "react";
+import Solutions from "../Components/Home/Solutions";
+import OurServices from "../Components/Home/OurServices";
+import TrustedBy from "../Components/Home/TrustedBy";
+import WhyChooseUs from "../Components/Home/WhyChooseUs";
+import Contact from "../Components/Home/Contact";
+import AboutUsComp from "../Components/Home/AboutUsComp";
+import HeroBanner from "../Components/Home/HeroBanner";
+import Testimonial from "../Components/Home/Testimonials";
 
 const Home = () => {
   return (
     <div>
-    <div className='h-full w-full'>
+      <div className="h-full w-full">
         <HeroBanner />
-    </div>
+      </div>
 
-
-{/* About us Section */}
-    <div className="px-6 md:px-12 lg:px-32 py-16 md:py-20">
+      {/* About us Section */}
+      <div className="px-6 md:px-12 lg:px-32 py-16 md:py-20">
         <AboutUsComp />
       </div>
 
@@ -40,14 +37,17 @@ const Home = () => {
           <WhyChooseUs />
         </div>
       </div>
-            {/* contact us */}
+      {/* contact us */}
 
       <div>
-        <Contact/>
-     </div>
+        <Contact />
+      </div>
 
+      <div>
+        <Testimonial />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -4,7 +4,6 @@ import Home from "./Pages/Home";
 import ContactUs from "./Pages/ContactUs";
 
 const App = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   return (
     <div className="w-full">
       {/* Navigation */}
