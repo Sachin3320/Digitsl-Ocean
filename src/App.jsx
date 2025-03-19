@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./Pages/Home";
 import ContactUs from "./Pages/ContactUs";
+import AboutUs from "./Pages/AboutUs";
 
 const App = () => {
   return (
@@ -19,12 +20,19 @@ const App = () => {
               Contact Us
             </Link>
           </li>
+
+          <li>
+            <Link to="/about" className="hover:underline">
+              About Us
+            </Link>
+          </li>
         </ul>
       </nav>
 
       {/* Page Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </div>
