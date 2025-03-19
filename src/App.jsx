@@ -1,16 +1,10 @@
 import React from "react";
-import HeroSection from "./Pages/HeroSection";
-import AboutUs from "./Pages/AboutUs";
-import ContactUs from "./Pages/ContactUs";
-import Testimonial from "./Components/Testimonials/Testimonials";
+import Home from "./Pages/Home";
 
 const App = () => {
   return (
     <div className="w-full">
-      <HeroSection />
-      <AboutUs />
-      <ContactUs />
-      <Testimonial />
+      <Home/>
     </div>
   );
 };
