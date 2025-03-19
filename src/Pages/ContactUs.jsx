@@ -1,10 +1,11 @@
 import React from 'react'
-import Contact from '../Components/ContactUs/Contact.jsx'
+import From from '../Components/ContactUs/From'
 
 const ContactUs = () => {
   return (
-    <div>
-        <Contact/>
+    <div className='w-full h-full'>
+      <From/>
+      
     </div>
   )
 }
