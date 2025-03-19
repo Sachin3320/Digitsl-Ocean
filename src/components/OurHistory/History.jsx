@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import contactus from "../../assets/contactUs.jpg";
-const Contact = () => {
+const History = () => {
   return (
     <section className="py-16 bg-black text-white relative mt-9">
       <div
@@ -33,4 +33,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default History;

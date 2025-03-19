@@ -1,10 +1,10 @@
 import React from 'react'
-import Contact from '../components/OurHistory/History.jsx'
+import History from '../components/OurHistory/History.jsx'
 
 const ContactUs = () => {
   return (
     <div>
-        <Contact/>
+        <History/>
     </div>
   )
 }

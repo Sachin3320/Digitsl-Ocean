@@ -1,9 +1,8 @@
 import React from "react";
-import AboutUsComp from "../components/AboutUs/AboutUsComp";
-import Solutions from "../components/AboutUs/Solutions";
-import OurServices from "../components/AboutUs/OurServices";
-import TrustedBy from "../components/AboutUs/TrustedBy";
-import WhyChooseUs from "../components/AboutUs/WhyChooseUs";
+import TrustedBy from "../components/AboutUs/AboutOracle";
+import WhyChooseUs from "../components/AboutUs/WhoWeAre";
+import AboutSection1 from "../components/AboutUs/AboutSection1";
+import WhoWeAre from "../components/AboutUs/WhoWeAre";
 
 const AboutUs = () => {
   return (
@@ -13,29 +12,19 @@ const AboutUs = () => {
       {/* Main Content Sections */}
       <div className="w-full flex flex-col gap-12 items-center">
         <div className="max-w-screen-lg w-full">
-          <Solutions />
+          <AboutSection1 />
         </div>
 
-        {/* About Us Section */}
-      {/* <div className="px-6 md:px-12 lg:px-32 py-16 md:py-20">
-        <AboutUsComp />
-      </div> */}
+      <div className="max-w-screen-lg w-full">
+          
+          <WhoWeAre />
 
-        
-
-        
-
-        <div className="max-w-screen-lg w-full">
-          <WhyChooseUs />
         </div>
 
         <div className="max-w-screen-lg w-full ">
-          <TrustedBy />
+          
         </div>
 
-        {/* <div className="max-w-screen-lg w-full">
-          <OurServices />
-        </div> */}
 
       </div>
     </div>

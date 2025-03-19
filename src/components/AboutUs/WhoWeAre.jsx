@@ -1,7 +1,7 @@
 import React from "react";
 import whyChooseUs from "../../assets/aboutUsImage/whyChooseUs.png";
 
-const WhyChooseUs = () => {
+const WhoWeAre = () => {
   return (
     <div className="min-h-screen md:min-h-[60vh] flex items-center justify-center bg-white px-6">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10 md:gap-20">
@@ -36,4 +36,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default WhoWeAre;

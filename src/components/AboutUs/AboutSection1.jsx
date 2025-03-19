@@ -1,7 +1,7 @@
 import AVsolution from "../../assets/aboutUsImage/AVsolution.png";
 import expertSol from "../../assets/aboutUsImage/expertSol.png";
 
-const Solutions = () => {
+const AboutSection1 = () => {
   return (
     <div className="min-h-[70vh] w-full p-8 md:p-6 rounded-2xl bg-[#faf1f1] flex flex-col">
       <div className="flex  flex-col lg:flex-row-reverse w-full gap-6 md:gap-6 lg:gap-12 flex-1">
@@ -94,7 +94,7 @@ const Solutions = () => {
         </div>
         <div className="w-full lg:w-2/5 flex flex-col justify-center p-4">
           {/* <h1 className="text-xl md:text-3xl font-semibold mb-2 mt-3">
-            Tailored AV Solutions:
+            Tailored AV AboutSection1:
           </h1> */}
           <h1 className="text-lg md:text-2xl font-semibold mt-3">
           Four Decades of Innovation Building Industries for the Future!
@@ -108,4 +108,4 @@ const Solutions = () => {
   );
 };
 
-export default Solutions;
+export default AboutSection1;

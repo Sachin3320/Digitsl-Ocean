@@ -17,7 +17,7 @@ const Card = ({ image, title, description }) => {
   );
 };
 
-const TrustedBy = () => {
+const AboutOracle = () => {
   return (
     
       <div className="max-w-4xl mx-auto bg-gray-100 p-8 shadow-lg text-center">
@@ -62,4 +62,4 @@ const TrustedBy = () => {
   );
 };
 
-export default TrustedBy;
+export default AboutOracle;
