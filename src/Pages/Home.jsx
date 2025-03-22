@@ -37,7 +37,6 @@ const Home = () => {
           <WhyChooseUs />
         </div>
       </div>
-      {/* contact us */}
 
       <div>
         <Contact />

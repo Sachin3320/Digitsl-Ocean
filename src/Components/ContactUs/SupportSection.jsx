@@ -1,5 +1,10 @@
-import React from 'react';
-import { FaHeadset, FaInfoCircle, FaShoppingCart, FaTruck } from 'react-icons/fa';
+import React from "react";
+import {
+  FaHeadset,
+  FaInfoCircle,
+  FaShoppingCart,
+  FaTruck,
+} from "react-icons/fa";
 
 const SupportSection = () => {
   const supportOptions = [
@@ -28,9 +33,12 @@ const SupportSection = () => {
   return (
     <section className="w-full bg-gray-100 py-12 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">How Can We Assist You?</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">
+          How Can We Assist You?
+        </h2>
         <p className="text-gray-600 mb-8">
-          We're here to provide information and support. Please share your query, and we'll respond accordingly.
+          We're here to provide information and support. Please share your
+          query, and we'll respond accordingly.
         </p>
 
         {/* Support Cards */}
