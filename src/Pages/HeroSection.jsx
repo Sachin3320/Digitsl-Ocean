@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroBanner from '../Components/heroSection/HeroBanner'
+import HeroBanner from '../components/heroSection/HeroBanner'
 
 const HeroSection = () => {
   return (
